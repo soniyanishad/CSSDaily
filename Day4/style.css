@@ -1,0 +1,49 @@
+.gfg{
+    margin-left: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    color:brown;
+}
+
+.greeks{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.main{
+    /* margin: 50px;
+    width: 400px; */
+    /* text-align: center; */
+    display: flex;
+    /* flex-direction: row-reverse;
+    border: 5px solid rebeccapurple; */
+    /* flex-direction: column;
+    border: 5px solid rebeccapurple; */
+    justify-content:space-between;
+}
+
+#greeks1{
+    height: 100px;
+    width: 200px;
+    background: teal;
+    /* display:inline-block; */
+}
+#greeks2{
+    height: 100px;
+    width: 200px;
+    background: cyan;
+    /* display:inline-block; */
+}
+#greeks3{
+    height: 100px;
+    width: 200px;
+    background: green;
+    /* display: inline-block; */
+}
+a{
+    /* display: block; */
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
