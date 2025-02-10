@@ -1,0 +1,25 @@
+/* p {
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px 40px 80px;
+    background-color: yellowgreen;
+    padding: 50px;
+    /* border: 10px inset rebeccapurple; */
+    /* border: 10px outset rebeccapurple;
+    /* border: 10px hidden rebeccapurple; */
+    /* border-radius: 50%;
+    background-image: url(./nature.jpg);
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+/* } */
+
+
+span{
+    background-color:brown;
+}
+
+div{
+    background-color: yellow;
+}
