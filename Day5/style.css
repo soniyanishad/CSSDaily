@@ -1,0 +1,65 @@
+#greeks1{
+    height: 100px;
+    width: 200px;
+    background: teal;
+    
+}
+#greeks2{
+    height: 80px;
+    width: 200px;
+    background: cyan;
+    /* align-self:center;   */
+    /* it align perticular content  */
+   
+}
+#greeks3{
+    height: 70px;
+    width: 200px;
+    background: green;
+   
+}
+.main{
+    display: flex;
+    justify-content:end;
+    flex-wrap:wrap;
+    width: 150px;
+    height: 400px;
+    /* align-items:start; */
+    /* align-items:last baseline; */
+    align-content:space-around;
+    border: 2px solid blue; 
+}
+
+.count{
+    position: absolute;
+}
+
+
+#box1{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    top:100px;
+    left: 100px;
+    z-index: -1;
+}
+#box2{
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(159, 147, 172);
+    top:100px;
+    left: 50px;
+    z-index: -3;
+}
+#box3{
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(162, 106, 27);
+    top:100px;
+    left: 60px;
+    z-index: -2;
+}
+
