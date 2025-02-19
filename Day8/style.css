@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    padding: auto;
+    margin: auto;
+    transform-style: preserve-3d;
+    transition: 1s;
+    animation-name: soniya;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction:alternate-reverse;
+    position: relative;
+    
+}
+/* #box1:hover{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    transform: rotateY(45deg) rotateX(30deg) translateZ(150px);
+
+}
+
+.main{
+    perspective: 1000px;
+} */
+
+#box2{
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    background-color: tomato;
+    box-sizing: border-box;
+}
+
+@keyframes soniya{
+    0%{
+        background-color: violet;
+        left:0px;
+        top:0px;
+        /* or we can use this */
+        /* transform: traslate(0,0);*/
+         
+    }
+    25%{
+         background-color: tomato;
+            left:100px;
+            top:0px;
+             /* transform: traslate(300px,0);*/
+    }
+    50%{
+        background-color: yellow;
+       left:100px;
+       top:100px;
+        /* transform: traslate(300px,600px);*/
+    }
+    75%{
+        background-color: wheat;
+        left:0px;
+        top:100px;
+        /* transform: traslate(0px,600px);*/
+    }
+
+    100%{
+        background-color: wheat;
+        left:0px;
+        top:0px;
+        /* transform: traslate(0px,0px);*/
+    }
+} 
+ 
+
