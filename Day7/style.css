@@ -1,0 +1,34 @@
+
+.box1{
+    margin: 80px;
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    
+    /* background-image: radial-gradient(circle,red 0%,red 10%,yellow 10%,yellow 20%,green 20%,green 30%,blue 30%,blue 40%); */
+    /* background-image: repeating-radial-gradient(circle,red 0%,red 10%,yellow 10%,yellow 20%,green 20%,green 30%,blue 30%,blue 40%); */
+    /* background-image: conic-gradient(red 0%,red 10%,yellow 10%,yellow 20%,green 20%,green 30%,blue 30%,blue 40%); */
+    background-image: repeating-conic-gradient(red 0%,red 10%,yellow 10%,yellow 20%,green 20%,green 30%,blue 30%,blue 40%);
+}
+
+#box2{
+    margin: 80px;
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    background-image:conic-gradient(pink 0deg, pink 90deg, lightblue 90deg,lightblue 180deg,  orange 180deg,orange 270deg, lightgreen 270deg,lightgreen 360deg);
+
+}
+
+#box3{
+    margin: 80px;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    /* transform: rotateY(45deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: scale(-1.5); (we can use negative and positive both values) */
+    /* transform: scale3d(-0.5,-0.5,-1.5); */
+    transform: skewY(320deg);
+}
