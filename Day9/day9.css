@@ -1,0 +1,42 @@
+
+/* desendent selector
+div p{
+    background-color: tomato;
+} */
+
+/* /* child selector */
+/* div > p{
+    background-color: tomato;
+} 
+
+/* /* adjacent sibling selector */
+/* div +p{
+    background-color: yellow;
+} */ 
+/* general sibling selector */
+/* div ~ p{
+    background-color: rgb(255, 0, 38);
+} */
+
+div{
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: yellowgreen;
+    padding: 5px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.grid-item{
+    background-color:wheat;
+    border:  1px solid teal;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
